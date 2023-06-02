@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+    background-image: url("https://pbs.twimg.com/media/FWIM4QbWQAEF9Y9.jpg:large");
+    background-size: cover;
+}
+
+.back {
+    background-color: #7a1412ce;
+    height: 100vh;
+    z-index: 2;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
